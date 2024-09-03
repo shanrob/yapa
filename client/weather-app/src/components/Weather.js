@@ -1,4 +1,5 @@
 import "../App.css";
+import { Link } from "react-router-dom";
 
 function Weather() {
   return (
@@ -10,6 +11,7 @@ function Weather() {
         <p>Humidity: 50%</p>
         <p>Winds: 5 mph</p>
       </div>
+      <Link to="/">Back to search</Link>
     </div>
   );
 }
